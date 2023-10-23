@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #A Script that allows ping 5 times, a argument 
 if [ $# -ne 1 ]; then
-    echo "Utilisation : $0 {ADRESSE_IP}"
+    echo "Utilisation : '$0' {ADRESSE_IP}"
     exit 1
 fi
 ping -c 5 "$1"
