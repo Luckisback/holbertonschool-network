@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#A Script that allows ping 5 times, a argument 
+ping -c 5 $#
